@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("Spring XML configuration");
         BeanFactory beanFactory = new ClassPathXmlApplicationContext("bean-factory.xml");
-        Calculator calculator = beanFactory.getBean("calculator", Calculator.class);
+        org.roman.xmlconfig.Calculator calculator = beanFactory.getBean("calculator", Calculator.class);
         System.out.println("Summa : " + calculator.calculate(3, 5));
         System.out.println("Diferent : " + calculator.calculate(6, 5));
     }
