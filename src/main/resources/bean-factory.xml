@@ -3,10 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="plusservice" class="org.roman.xmlconfig.PlusService"/>
-    <bean id="minusservice" class="org.roman.xmlconfig.MinusService"/>
+    <bean id="plusservice" class="org.kriukov.xmlconfig.PlusService"/>
+    <bean id="minusservice" class="org.kriukov.xmlconfig.MinusService"/>
 
-    <bean id="calculator" class="org.roman.xmlconfig.Calculator">
+    <bean id="calculator" class="org.kriukov.xmlconfig.Calculator">
         <constructor-arg ref="plusservice"/>
         <constructor-arg ref="minusservice"/>
     </bean>

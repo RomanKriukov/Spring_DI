@@ -1,4 +1,4 @@
-package org.roman.javaconfig;
+package org.kriukov.javaconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package org.roman.annotationconfig;
+package org.kriukov.annotationconfig;
 
 import org.springframework.stereotype.Component;
 

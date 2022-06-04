@@ -1,8 +1,5 @@
-package org.roman.annotationconfig;
+package org.kriukov.xmlconfig;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class Calculator {
 
     private PlusService plus;

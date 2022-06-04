@@ -1,4 +1,4 @@
-package org.roman.xmlconfig;
+package org.kriukov.xmlconfig;
 
 public class PlusService {
     public int summa(int a, int b){

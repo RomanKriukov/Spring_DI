@@ -1,4 +1,4 @@
-package org.roman.xmlconfig;
+package org.kriukov.javaconfig;
 
 public class MinusService {
     public int diferent(int a, int b){

@@ -1,4 +1,4 @@
-package org.roman.javaconfig;
+package org.kriukov.javaconfig;
 
 public class PlusService {
     public int summa(int a, int b){
